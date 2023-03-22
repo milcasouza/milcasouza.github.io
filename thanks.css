@@ -38,28 +38,4 @@ body {
 
 .thanks h2 {
     font-size: 50px;
-    font-weight: 400;
-}
-
-.thanks p {
-    text-transform: uppercase;
-    font-size: 18px;
-    text-align: center;
-}
-
-.thanks button {
-    background-color: #A10856;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    border: 0;
-    outline: 0;
-    margin-top: 15px;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: background-color 0.5s;
-}
-
-.thanks button:hover {
-    background-color: #CF076F
 }
