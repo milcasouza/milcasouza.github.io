@@ -514,6 +514,7 @@ body {
     background-color: #A10856;
     color: #FFFFFF;
     border: 0;
+    outline: none;
     padding: 10px 20px;
     border-radius: 10px;
     text-transform: uppercase;
@@ -650,6 +651,7 @@ body {
     background-color: #A10856;
     color: #FFFFFF;
     border: 0;
+    outline: none;
     padding: 10px 20px;
     margin-top: 10px;
     border-radius: 10px;
