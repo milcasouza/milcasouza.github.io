@@ -241,7 +241,7 @@ body {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
     .side-nav {
         display: none;
     }
@@ -278,6 +278,9 @@ body {
 
     .about-col-1 {
         flex-basis: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-col-2 {
@@ -306,7 +309,7 @@ body {
 }
 
 .about-col-1 img {
-    width: 90%;
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -406,6 +409,7 @@ body {
     border-radius: 10px;
     margin: 0 30px;
     transition: background-color 0.5s, transform 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .card:hover {
@@ -421,6 +425,18 @@ body {
 }
 
 @media (max-width: 760px) {
+    .container-skills {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 930px) {
     .container-skills {
         width: 80%;
         align-items: center;
@@ -465,6 +481,7 @@ body {
     text-transform: uppercase;
     border-radius: 10px;
     transition: background-color 0.5s, transform 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     display: none; /* Ver mais */
 }
 
@@ -520,6 +537,7 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .button-projects:hover {
@@ -590,6 +608,7 @@ body {
     border-radius: 10px;
     height: 94px;
     width: 94px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .rows {
@@ -640,6 +659,7 @@ body {
     border-radius: 10px;
     width: 100%;
     transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .contact-right input:hover,
@@ -658,6 +678,7 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .button-con:hover {
